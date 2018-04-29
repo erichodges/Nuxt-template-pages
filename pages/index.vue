@@ -23,39 +23,5 @@
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 
-  
-  background-image: url('../assets/sleep_loss_large.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-
-}
-
-.title {
-  font-family: Roboto, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #fff;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
