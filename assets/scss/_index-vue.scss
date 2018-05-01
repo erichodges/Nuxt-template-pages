@@ -1,24 +1,100 @@
-.container {
+.section-1 {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   align-items: center;
   text-align: center;
 
   
   background-image: linear-gradient(
-    to right, rgba($color-primary-light, 0.8),
-    rgba($color-primary-dark, 0.8)),url('../images/sleep_loss_large.jpg');
+    to bottom, rgba($color-grey-light-1, .4),
+    rgba($color-grey-light-2, .9)), url('~/assets/images/sleep_loss_large.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 
 }
+////////////////////////
+// Testing UL method
+.nav {
+  display: flex;
+}
+.ul-nav {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.li-logo {
+  margin-right: auto;
+}
+
+.li-user-nav {
+  font-family: Roboto, sans-serif; 
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem;   
+  padding: 1rem;
+  cursor: pointer;
+}
+
+// End UL method
+////////////////////////////
+.nav-div {
+  display: flex;  
+  // justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: transparent;
+  
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo-box {
+  display: flex;
+  // justify-content: flex-start;
+  align-items: center;
+
+}
+
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem;  
+}
+
+
+.user-nav {
+  display: flex;
+  align-self: stretch;
+  // justify-content: flex-end;  
+  align-items: center;
+ 
+  
+
+  & > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
 
 .title {
   font-family: Roboto, sans-serif; 
   display: block;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 10rem;
   color: #fff;
   letter-spacing: 1px;
