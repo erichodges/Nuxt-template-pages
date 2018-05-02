@@ -7,7 +7,7 @@
 
   
   background-image: linear-gradient(
-    to bottom, rgba($color-grey-light-1, .4),
+    to bottom, rgba($color-grey-light-1, .3),
     rgba($color-grey-light-2, .9)), url('~/assets/images/sleep_loss_large.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,10 +15,8 @@
 
 }
 ////////////////////////
-// Testing UL method
-.nav {
-  display: flex;
-}
+// Header
+
 .ul-nav {
   display: flex;
   padding: 0;
@@ -41,26 +39,6 @@
   cursor: pointer;
 }
 
-// End UL method
-////////////////////////////
-.nav-div {
-  display: flex;  
-  // justify-content: space-between;
-  top: 0;
-  left: 0;
-}
-
-.header {
-  font-size: 1.4rem;
-  height: 7rem;
-  background-color: transparent;
-  
-  display: flex;
-  // justify-content: space-between;
-  align-items: center;
-  
-}
-
 .logo-box {
   display: flex;
   // justify-content: flex-start;
@@ -73,31 +51,21 @@
   margin-left: 2rem;  
 }
 
+// End Header
+////////////////////////////
 
-.user-nav {
-  display: flex;
-  align-self: stretch;
-  // justify-content: flex-end;  
-  align-items: center;
- 
+.section-1__heading {
   
-
-  & > * {
-    padding: 0 2rem;
-    cursor: pointer;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
 }
 
 .title {
   font-family: Roboto, sans-serif; 
   display: block;
   font-weight: 700;
-  font-size: 10rem;
+  font-size: 8rem;
   color: #fff;
   letter-spacing: 1px;
+  margin-top: 35rem;
 }
 
 .subtitle {
