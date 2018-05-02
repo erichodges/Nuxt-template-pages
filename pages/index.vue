@@ -21,7 +21,7 @@
         <div class="links">
           <a
             href="#"
-            target="_blank"
+            target=""
             class="button--green">Get Started</a>          
         </div>
       </div>
