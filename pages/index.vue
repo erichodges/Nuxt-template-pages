@@ -8,7 +8,8 @@
         
         <li class="li-user-nav">Products</li>
         <li class="li-user-nav">About</li>
-        <li class="li-user-nav">Contact</li>
+        <li class="li-user-nav contact-menu-item">Contact</li>
+        <li class="nav-spacer-right"> </li>
       </ul>
 
       <div class="section-1__heading">      
