@@ -23,7 +23,8 @@
           <a
             href="#"
             target=""
-            class="button--green">Get Started</a>          
+            class="button--green">Get Started
+          </a>          
         </div>
       </div>
     </section>
