@@ -28,17 +28,41 @@
         </div>
       </div>
       <div class="down-arrow">
-        <svg fill="#FFFFFF" height="40" viewBox="0 0 24 24" width="40"        xmlns="http://www.w3.org/2000/svg">
+        <a href="#" v-scroll-to="'#section-2'">
+          <svg fill="#FFFFFF" height="40" viewBox="0 0 24 24" width="40"        xmlns="http://www.w3.org/2000/svg">
           <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
           <path d="M0-.75h24v24H0z" fill="none"/>
         </svg>
+        </a>
+        
       </div>
     </section>
 
     <section class="section-2">
+      
       
     </section>
   </main>
 </template>
 
 
+<script>
+var Vue = require('vue');
+var VueScrollTo = require('vue-scrollto');
+
+// You can also pass in the default options
+Vue.use(VueScrollTo, {
+     container: "body",
+     duration: 500,
+     easing: "ease",
+     offset: 0,
+     cancelable: true,
+     onStart: false,
+     onDone: false,
+     onCancel: false,
+     x: false,
+     y: true
+ })
+
+
+</script>
