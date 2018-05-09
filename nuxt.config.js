@@ -19,6 +19,8 @@ module.exports = {
     '@assets/scss/main.scss'
   ],
 
+  plugins: ['~/plugins/vue-scrollto.js'],
+
   // nuxt-sass-resources-loader below is not working as configured, but I'm getting the scss files loaded into main.scss from the css entry above.
 
     // modules: [

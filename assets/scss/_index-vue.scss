@@ -99,8 +99,18 @@
   }
 }
 
-.down-arrow {
+.down-arrow-div {
   padding-top: 15rem;
+}
+
+.down-arrow {
+  fill: #c1c1c4;
+
+  &:hover {
+    transform: translateY(5px);
+    transition: transform .25s;
+    fill: #fff;
+  }
 }
 
 ////////////////////////
