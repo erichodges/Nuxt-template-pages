@@ -27,7 +27,7 @@
           </a>          
         </div>
       </div>
-      <div class="down-arrow-div">
+      <div class="down-arrow-div  ">
         <a href="#" v-scroll-to="'#section-2'">
           <svg class="down-arrow" fill="#FFFFFF" height="40" viewBox="0 0 24 24" width="40"        xmlns="http://www.w3.org/2000/svg">
           <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
@@ -38,7 +38,7 @@
       </div>
     </section>
 
-    <section class="section-2">
+    <section id="section-2" class="section-2">
       
       
     </section>

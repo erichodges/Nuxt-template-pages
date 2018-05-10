@@ -1,5 +1,5 @@
-var Vue = require('vue');
-var VueScrollTo = require('vue-scrollto');
+import Vue from "vue";
+import VueScrollTo from "vue-scrollto";
 
 // You can also pass in the default options
 Vue.use(VueScrollTo, {
@@ -14,7 +14,6 @@ Vue.use(VueScrollTo, {
      x: false,
      y: true
  })
+  
 
- module.exports = {
-  VueScrollTo
- }
+ 
