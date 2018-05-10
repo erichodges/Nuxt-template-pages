@@ -19,17 +19,7 @@ module.exports = {
     '@assets/scss/main.scss'
   ],
 
-  plugins: ['~/plugins/vue-scrollto.js'],
-
-  // nuxt-sass-resources-loader below is not working as configured, but I'm getting the scss files loaded into main.scss from the css entry above.
-
-    // modules: [
-    //         ['nuxt-sass-resources-loader', [
-    //             resolve(__dirname, 'assets/scss/file/_index-vue.scss'),
-    //             resolve(__dirname, 'assets/scss/file/_base.scss')
-    //         ]]
-    //     ],
-
+  plugins: [ '~/plugins/vue-scrollto.js', '~/plugins/headroom.js' ],
 
   /*
   ** Customize the progress bar color

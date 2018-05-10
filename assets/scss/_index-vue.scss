@@ -28,10 +28,19 @@
 .li-user-nav {
   font-family: Roboto, sans-serif; 
   color: #fff;
+  cursor: pointer;
   font-size: 2rem;
   font-weight: 600;  
   padding: 2rem;
-  cursor: pointer;
+  text-decoration: none;
+  text-decoration-line: none;
+  
+ 
+}
+
+.a {
+  text-decoration-line: unset;
+  text-decoration-line: none;
 }
 
 .logo-box {
@@ -120,5 +129,20 @@
   height: 100vh;
   margin-top: 0;
   margin-bottom: 0;
-  
+  background-color: #4670e4; 
 }
+
+.section-3 {
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #63e40d; 
+}
+
+.section-4 {
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #e45846; 
+}
+

@@ -1,16 +1,20 @@
 <template>
   <main>
     <section class="section-1">
+      <vue-headroom>
       <ul class="ul-nav">
         <li class="li-logo">
           <img src="~/assets/images/logo.png" alt="Trillo Logo" class="logo">
         </li>
-        
-        <li class="li-user-nav">Products</li>
-        <li class="li-user-nav">About</li>
-        <li class="li-user-nav contact-menu-item">Contact</li>
+        <a class="a" href="#" v-scroll-to="'#section-2'">
+        <li class="li-user-nav">Products</li></a>
+        <a class="a" href="#" v-scroll-to="'#section-3'">
+        <li class="li-user-nav">About</li></a>
+        <a class="a" href="#" v-scroll-to="'#section-4'">
+        <li class="li-user-nav">Contact</li></a>        
         <li class="nav-spacer-right"> </li>
       </ul>
+      </vue-headroom>
 
       <div class="section-1__heading">      
         <h1 class="title">
@@ -22,7 +26,7 @@
         <div class="links">
           <a
             href="#"
-            target=""
+            v-scroll-to="'#section-2'"
             class="button--green">Get Started
           </a>          
         </div>
@@ -39,15 +43,22 @@
     </section>
 
     <section id="section-2" class="section-2">
-      
-      
+
+
     </section>
+
+    <section id="section-3" class="section-3">
+
+    </section>
+
+    <section id="section-4" class="section-4">
+
+    </section>
+
   </main>
 </template>
 
 
 <script>
-
-
 
 </script>
