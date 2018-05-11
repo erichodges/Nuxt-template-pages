@@ -19,7 +19,12 @@ module.exports = {
     '@assets/scss/main.scss'
   ],
 
-  plugins: [ '~/plugins/vue-scrollto.js', '~/plugins/headroom.js' ],
+  plugins: [ 
+    {src: '~/plugins/vue-scrollto.js'},
+    {src: '~/plugins/jump.js', ssr: false}, 
+    {src: '~/plugins/headroom.js'}
+  
+  ],
 
   /*
   ** Customize the progress bar color
