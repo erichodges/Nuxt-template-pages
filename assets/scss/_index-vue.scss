@@ -51,8 +51,9 @@
 }
 
 .logo {
-  height: 3.25rem;
-  margin-left: 2rem;  
+  // height: 3.25rem;
+  width: 60%;
+  margin-left: -2rem;  
 }
 
 .nav-spacer-right {
@@ -64,7 +65,7 @@
 
 .section-1__heading {
   display: grid;
-  grid-template-rows: 15rem 15rem 15rem auto auto auto;
+  grid-template-rows: 15rem 15rem 15rem 15rem auto auto auto;
 
 }
 
@@ -75,7 +76,7 @@
   font-size: 8rem;
   color: #fff;
   letter-spacing: 1px;
-  grid-row: 4 / 5;
+  grid-row: 5 / 6;
   
 }
 
@@ -85,12 +86,12 @@
   color: #fff;
   word-spacing: .5rem;
   padding-bottom: 1.5rem;
-  grid-row: 5 / 6;
+  grid-row: 6 /7;
 }
 
 .links {  
   padding-top: 2.5rem;
-  grid-row: 6 / 7;
+  grid-row: 7 / 8;
 }
 
 .button--green {  
@@ -109,7 +110,7 @@
 }
 
 .down-arrow-div {
-  padding-top: 15rem;
+  padding-top: 7rem;
 }
 
 .down-arrow {
