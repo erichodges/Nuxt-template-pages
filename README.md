@@ -1,7 +1,7 @@
 #Nuxt Starter Template: Scrolling SPA
 
-> Vue scrollto
-> Vue headroom
+* Vue scrollto
+* Vue headroom
 
 
 ## Build Setup
