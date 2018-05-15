@@ -6,7 +6,7 @@
         <li class="li-logo">
           <img src="~/assets/images/sleep-logo.png" alt=" Logo" class="logo">
         </li>
-        <a class="a" href="#" v-jump="'#section-2'">
+        <a class="a" href="#" v-jump="{to: '#section-2'}">
         <li class="li-user-nav">Products</li></a>
         <a class="a" href="#" v-scroll-to="'#section-3'">
         <li class="li-user-nav">About</li></a>
@@ -43,7 +43,7 @@
     </section>
 
     <section id="section-2" class="section-2">
-
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis dignissimos vel assumenda dolor. Amet aspernatur ducimus facere numquam nesciunt, magnam maiores, non reiciendis corporis deleniti sint autem nihil quaerat soluta perspiciatis modi quidem ipsum ut dolorem laborum porro laboriosam ex. Quibusdam corrupti delectus distinctio quasi, libero temporibus in placeat aliquam possimus, quisquam repellat nisi quia laudantium excepturi dolor commodi dignissimos quidem eveniet nobis. A, amet rem similique earum molestias nostrum maiores asperiores ratione cupiditate tenetur quis iure, recusandae nemo! Cum quia accusamus consequatur, maxime earum cupiditate. Nesciunt, quo perspiciatis? Similique non pariatur vero numquam quae voluptatem quod? Aut iure ut porro voluptatem accusantium harum optio dolore libero mollitia corrupti. Consequuntur doloribus incidunt dolorum non est cumque accusantium velit eos ipsum provident quisquam, voluptatum itaque molestias quaerat architecto repellendus! Commodi temporibus cumque, ipsa odio alias repellat cupiditate iusto ut eos quaerat velit nesciunt omnis sit ab, laboriosam natus harum ducimus nostrum illum sed, pariatur molestiae debitis consequuntur dolorem. Rem minus velit facilis hic, laborum dolorem rerum. Atque eius, obcaecati autem ipsam quibusdam, facere saepe minus sunt iusto laborum minima repellat quod nesciunt eum vero necessitatibus nemo excepturi explicabo corrupti veritatis in modi a exercitationem distinctio? Tempore numquam nostrum est harum!</h1>
 
     </section>
 
