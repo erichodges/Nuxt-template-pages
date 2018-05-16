@@ -5,7 +5,7 @@
 * Vue headroom
 
 
-## Build Setup
+## Dev/Build Setup
 
 ``` bash
 # install dependencies
