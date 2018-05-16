@@ -1,7 +1,8 @@
 <template>
   <main>
+    <Nav />
     <section class="section-1">
-      <Nav />
+      
 
       <div class="section-1__heading">      
         <h1 class="title">
