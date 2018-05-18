@@ -19,6 +19,15 @@ module.exports = {
     '@assets/scss/main.scss'
   ],
 
+  modules: [
+    '@nuxtjs/axios',
+  ],
+
+  // axios: {
+  //   // proxyHeaders: false
+  //   }
+  // },
+
   plugins: [ 
     {src: '~/plugins/vue-scrollto.js'},
     {src: '~/plugins/jump.js', ssr: false}, 
