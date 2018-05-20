@@ -48,20 +48,16 @@
 
 
 <script>
- import axios from '~plugins/axios'
-
   export default {
-    asyncData ({params, error}) {
-      return axios.get('https://nuxt-template.cdn.prismic.io/api/v2')
-        .then((res) => {
-          return {params}
+    asyncData({ params, error, $axios }) {
+      return $axios
+        .get("https://nuxt-template.cdn.prismic.io/api/v2")
+        .then(res => {
+          console.log(res);
+          return { params };
         })
-        .catch((e) => {
-          error({statusCode: 404, message: 'data not found'})
-        })
-        console.log(params)
     }
-  }
+  };
   
 </script>
 

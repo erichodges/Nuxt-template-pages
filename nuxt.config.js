@@ -21,6 +21,7 @@ module.exports = {
 
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
   ],
 
   // axios: {
