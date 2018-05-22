@@ -2,12 +2,12 @@
   <main>    
     <section class="section-1">    
 
-      <div class="section-1__heading">      
+      <div class="section-1__heading">           
         <h1 class="title">
-          Trouble sleeping?
+         {{ items.fields.h1 }}
         </h1>
         <h2 class="subtitle">
-          Try a customized sleep therapy
+          {{ items.fields.h2 }}
         </h2>
         </div>
         <div class="links">
@@ -30,7 +30,7 @@
     </section>
 
     <section id="section-2" class="section-2">
-      
+      {{ items.fields.bodyText_1 }}
 
     </section>
 
