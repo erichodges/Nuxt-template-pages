@@ -1,5 +1,7 @@
 # Nuxt Starter Template: Scrolling SPA
 
+* Contentful
+* Axios
 * SCSS
 * Vue scrollto
 * Vue headroom
