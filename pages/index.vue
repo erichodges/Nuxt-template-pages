@@ -53,16 +53,44 @@
 
 
 <script>
+
+  import {createClient} from '~/plugins/contentful.js'
+
+  const client = createClient()
+
   export default {
-    asyncData({ params, error, $axios }) {
-      return $axios
-        .get("https://nuxt-template.cdn.prismic.io/api/v2")
-        .then(res => {
-          console.log(res);
-          return { params };
+  // make use of your env variables 
+    asyncData ({env}) {
+      return Promise.all([
+        client.getEntries({
+         // provide all other query parameters from env variable
+      
+         content_type: env.LAYOUT_CT_ID
         })
+      ]).then(([entries]) => {
+        // return data that should be available
+        // in the template
+        return {
+         //access the items object of your JSON response
+          items: entries.items[0]
+        }
+        
+      }).catch(console.error)
     }
-  };
+  }
+
+
+
+  // export default {
+  //   asyncData({ params, error, $axios }) {
+  //     return $axios
+  //       .get("https://nuxt-template.cdn.prismic.io/api/v2")
+  //       .then(res => {
+  //         console.log(res);
+  //         return { params };
+  //       })
+  //   }
+  // };
   
 </script>
 

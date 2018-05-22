@@ -1,4 +1,5 @@
 require('dotenv').config()
+const config = require('./.contentful.json')
 
 module.exports = {
   /*
@@ -26,16 +27,17 @@ module.exports = {
     '@nuxtjs/dotenv',
   ],
 
-  // axios: {
-  //   // proxyHeaders: false
-  //   }
-  // },
-
   plugins: [ 
     {src: '~/plugins/axios.js'},
+    {src: '~/plugins/contentful.js'},  //????
     {src: '~/plugins/headroom.js'},
     {src: '~/plugins/jump.js', ssr: false},
     {src: '~/plugins/vue-scrollto.js'} 
+  ],
+
+  env: [
+    {CTF_SPACE_ID: config.CTF_SPACE_ID},
+    {CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN}
   ],
 
   /*
