@@ -19,7 +19,8 @@
     "jump.js": "^1.0.2",
     "nuxt": "^1.0.0",
     "vue-headroom": "^0.8.1",
-    "vue-scrollto": "^2.11.0"
+    "vue-scrollto": "^2.11.0",
+    "vue-style-loader": "^4.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
