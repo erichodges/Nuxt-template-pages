@@ -7,17 +7,20 @@
         </li>
         <li class="li-user-nav">
           <a class="a" href="#" v-scroll-to="'#section-2'">
-          Products</a>
+            Products<svg class="nav-chevron" fill="currentColor" height="20" viewBox="0 0 17 17" width="22" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+            <path d="M0-.75h24v24H0z" fill="none"/>
+            </svg>
+          </a>
           <div>
             <ul>
-              <li>widget 1</li>
-              <li>widget 2</li>
-              <li>widget 3</li>
+              <li><a href="#">widget 1</a></li>
+              <li><a href="#">widget 2</a></li>
+              <li><a href="#">widget 3</a></li>
+             
             </ul>
           </div>
         </li>
-
-
 
         <li class="li-user-nav">
           <a class="a" href="#" v-scroll-to="'#section-3'">
@@ -45,6 +48,14 @@ nav {
   overflow: hidden;
   display: block;
 
+}
+
+.nav-chevron {
+  
+
+  &:hover {
+    fill: #fff;
+  }
 }
 
 nav ul {
@@ -88,7 +99,7 @@ nav > ul > li > a {
   }
 
 nav > ul > li:hover {
-  background-color: rgb( 40, 44, 47 );
+  background-color: transparent;
 }
 
 nav > ul > li:hover > a {
@@ -100,7 +111,7 @@ nav > ul > li:hover > a > .caret {
 }
 
 nav > ul > li > div {
-  background-color: rgb( 40, 44, 47 );
+  background-color: transparent;
   border-top: 0;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
@@ -111,31 +122,44 @@ nav > ul > li > div {
   width: 165px;
   visibility: hidden;
   transition: opacity 0.2s;
+
+  padding-top: 1rem;
 }
 
  nav > ul > li:hover > div {
   display: block;
   opacity: 1;
   visibility: visible;
+
+  
 }
 
 nav > ul > li > div ul > li {
   display: block;
+  padding-left: .5rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
 }
 
 nav > ul > li > div ul > li > a {
-  color: #fff;
+  color: rgb(192, 190, 190);
   display: block;
-  padding: 12px 24px;
+  
   text-decoration: none;
+
+  
 }
 
 nav > ul > li > div ul > li:hover > a {
-  background-color: rgba( 255, 255, 255, 0.1);
+  color: #fff;
 }
 
 .a {
-  color: #fff;
+  color: rgb(192, 190, 190);
+
+  > nav-chevron:hover {
+    fill: #fff
+  }
 }
 
 </style>
