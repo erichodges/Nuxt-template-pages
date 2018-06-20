@@ -7,7 +7,8 @@
         </li>
         <li class="li-user-nav">
           <a class="a" href="#" v-scroll-to="'#section-2'">
-            Products<svg class="nav-chevron" fill="currentColor" height="20" viewBox="0 0 17 17" width="22" xmlns="http://www.w3.org/2000/svg">
+            Products
+            <svg class="nav-chevron" fill="currentColor" height="20" viewBox="0 0 17 17" width="22" xmlns="http://www.w3.org/2000/svg">
             <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
             <path d="M0-.75h24v24H0z" fill="none"/>
             </svg>
@@ -79,7 +80,7 @@ nav ul li {
  }
 
 nav > ul > li > a > .caret {
-  border-top: 4px solid #aaa;
+  border-top: 4px solid $color-grey-light-1;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   content: "";
@@ -142,7 +143,7 @@ nav > ul > li > div ul > li {
 }
 
 nav > ul > li > div ul > li > a {
-  color: rgb(192, 190, 190);
+  color: $color-grey-light-1;
   display: block;
   
   text-decoration: none;
@@ -155,7 +156,7 @@ nav > ul > li > div ul > li:hover > a {
 }
 
 .a {
-  color: rgb(192, 190, 190);
+  color: $color-grey-light-1;
 
   > nav-chevron:hover {
     fill: #fff
