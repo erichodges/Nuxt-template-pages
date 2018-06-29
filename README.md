@@ -1,4 +1,4 @@
-# Nuxt Starter Template: Scrolling SPA
+# Nuxt Template: Universal SPA set up for pages
 
 * Contentful
 * Axios
