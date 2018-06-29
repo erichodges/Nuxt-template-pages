@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="first-div">
     <Nav />
     <nuxt/>
     <Footer />
@@ -20,3 +20,19 @@
     }
   }
 </script>
+
+<style lang="scss">
+  .first-div { 
+      height: 100vh; 
+  align-items: center;
+  text-align: center;
+
+    background-image: linear-gradient(
+    to bottom, rgba($color-grey-light-1, .3),
+    rgba($color-grey-light-2, .9)), url('~/assets/images/AdobeStock_78149176_Preview.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+</style>
