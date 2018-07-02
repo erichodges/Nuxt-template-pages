@@ -1,5 +1,5 @@
 <template>
-  <div class="first-div">
+  <div class="div-with-background">
     <Nav />
     <nuxt/>
     <Footer />
@@ -22,7 +22,7 @@
 </script>
 
 <style lang="scss">
-  .first-div { 
+  .div-with-background{ 
     height: 100vh; 
     align-items: center;
     text-align: center;
