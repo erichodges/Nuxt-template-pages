@@ -23,9 +23,9 @@
 
 <style lang="scss">
   .first-div { 
-      height: 100vh; 
-  align-items: center;
-  text-align: center;
+    height: 100vh; 
+    align-items: center;
+    text-align: center;
 
     background-image: linear-gradient(
     to bottom, rgba($color-grey-light-1, .3),
