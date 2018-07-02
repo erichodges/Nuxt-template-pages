@@ -3,7 +3,7 @@
     <nav>
       <ul class="ul-nav">
         <li class="li-logo">
-          <img src="~/assets/images/sleep-logo.png" alt=" Logo" class="logo">
+          <img src="~/assets/images/logo.png" alt=" Logo" class="logo">
         </li>
         <li class="li-user-nav">
           <a class="a" href="#" v-scroll-to="'#section-2'">

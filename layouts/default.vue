@@ -22,14 +22,9 @@
 </script>
 
 <style lang="scss">
-  .div-with-background{ 
-    height: 100vh; 
-    align-items: center;
-    text-align: center;
-
-    background-image: linear-gradient(
-    to bottom, rgba($color-grey-light-1, .3),
-    rgba($color-grey-light-2, .9)), url('~/assets/images/AdobeStock_78149176_Preview.jpeg');
+  .div-with-background { 
+    height: 100vh;     
+    background-image: url('~/assets/images/anders-jilden-108186-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

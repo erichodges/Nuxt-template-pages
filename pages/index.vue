@@ -3,11 +3,14 @@
     <section class="section-1">    
 
       <div class="section-1__heading">           
-        <h1 class="title">
-         {{ items.fields.h1 }}
+        <h1 class="title"> 
+          <!-- {{ items.fields.h1 }} -->
+          Nuxt Template Pages
+         
         </h1>
         <h2 class="subtitle">
-          {{ items.fields.h2 }}
+          <!-- {{ items.fields.h2 }} -->
+          A nice subtitle goes here...
         </h2>
         </div>
         <div class="links">
